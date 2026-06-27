@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 # # # BOOLEAN NOTES::
 
 # very_good_data = True
@@ -60,7 +60,10 @@
 # # MAPS NOTES::
 # #  Dictionaries are maps in Python. They store key-value pairs.
 # #  MOSTLY used for storing data that is related to each other.
-=======
+
+
+
+
 # # BOOLEAN NOTES::
 
 very_good_data = True
@@ -122,7 +125,8 @@ print(my_first_string[2:6])  # Accessing the third to sixth characters of the st
 # MAPS NOTES::
 #  Dictionaries are maps in Python. They store key-value pairs.
 #  MOSTLY used for storing data that is related to each other.
->>>>>>> 757e621f15e2f53c913629057437833e7eb38a0f
+
+# >>>>>>> 757e621f15e2f53c913629057437833e7eb38a0f
 
 my_first_person = {
 "first_name": "Knox",
@@ -132,19 +136,22 @@ my_first_person = {
 "enemies": [None]
 }
 
-<<<<<<< HEAD
+# <<<<<<< HEAD
+
+
 # # key:value pairs are separated by a colon, and each pair is separated by a comma. The entire dictionary is enclosed in curly braces.
 # # # Example:"first_name": "Knox", # "last_name": "Fraiser", # "age": 30,    # "is_happy": True, # "enemies": [None]
 
 # print(my_first_person["first_name"])     # Accessing the value associated with the key "first_name"
 # print(my_first_person["last_name"], my_first_person["age"])     # Accessing the value associated with the key "last_name" and "age"
-=======
+
+
 # key:value pairs are separated by a colon, and each pair is separated by a comma. The entire dictionary is enclosed in curly braces.
 # # Example:"first_name": "Knox", # "last_name": "Fraiser", # "age": 30,    # "is_happy": True, # "enemies": [None]
 
 print(my_first_person["first_name"])     # Accessing the value associated with the key "first_name"
 print(my_first_person["last_name"], my_first_person["age"])     # Accessing the value associated with the key "last_name" and "age"
->>>>>>> 757e621f15e2f53c913629057437833e7eb38a0f
+# >>>>>>> 757e621f15e2f53c913629057437833e7eb38a0f
 
 
 my_second_person = {
@@ -158,16 +165,18 @@ my_second_person = {
 print(my_second_person["first_name"])     # Accessing the value associated with the key "first_name"
 print(my_second_person["last_name"], my_second_person["age"])     # Accessing the value associated with the key "last_name" and "age"
 
-<<<<<<< HEAD
+# <<<<<<< HEAD
 # print(my_second_person["enemies"][0]["first_name"])  # Accessing the first enemy's first name of the first person in the list
-=======
+
+
+
 print(my_second_person["enemies"][0]["first_name"])  # Accessing the first enemy's first name of the first person in the list
->>>>>>> 757e621f15e2f53c913629057437833e7eb38a0f
+# >>>>>>> 757e621f15e2f53c913629057437833e7eb38a0f
 
 
 # print(my_list_var[2]["enemies"][0]["first_name"]})   # Accessing the first enemy's first name of the third person in the list (this will raise an error because my_list_var[2] is an integer, not a dictionary)
 
-<<<<<<< HEAD
+# <<<<<<< HEAD
 
 
 # challenges:
@@ -195,5 +204,7 @@ my_second_car_2 = {
 }
 
 print(my_second_car_2["car_name"], my_second_car_2["price"], my_second_car_2["year"])     # Accessing the value associated with the key "car_name", "price", and "year" 
-=======
->>>>>>> 757e621f15e2f53c913629057437833e7eb38a0f
+
+
+
+# >>>>>>> 757e621f15e2f53c913629057437833e7eb38a0f
