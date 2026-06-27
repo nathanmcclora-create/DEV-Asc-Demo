@@ -1,0 +1,93 @@
+# # BOOLEAN NOTES::
+
+very_good_data = True
+
+very_bad_data = False
+
+some_other_data = True
+
+print(very_good_data == some_other_data)
+
+print(very_good_data == very_bad_data)
+
+
+print(1 == 1)
+
+print(1 == 2)
+
+# # NONE NOTES::
+# #  Performing arithmetic DO NOT USE NONE as zero - It will create errors
+
+my_first_var = 42
+my_second_var = None
+my_third_var = 13
+
+# print(my_first_var + my_second_var + my_third_var)  # This will raise an error because None cannot be added to integers
+
+
+# # SEQUENCES NOTES::
+# #  Lists, Tuples, and Strings are all sequences in Python. They can be indexed
+
+my_list_var = [1, 2, 3, 4, 5]
+
+my_second_list_var = ["apple", 
+                      "banana", 
+                      "cherry",
+                      "oranges",
+                      "watermelon",
+                      "cantaloupe",
+                      None
+]
+
+print(my_list_var[0])  # Accessing the first element of the list
+
+print(my_second_list_var[6])  # Accessing the seventh element of the second list
+
+my_first_tuple_var = (1, 2, 3, 4, 5)
+
+print(my_first_tuple_var[2])  # Accessing the third element of the tuple
+
+my_first_string = "Hello, World!"
+
+print(my_first_string[7])  # Accessing the eighth character of the string
+
+print(my_first_string[-1])  # Accessing the last character of the string using negative indexing
+
+print(my_first_string[2:6])  # Accessing the third to sixth characters of the string
+
+
+# MAPS NOTES::
+#  Dictionaries are maps in Python. They store key-value pairs.
+#  MOSTLY used for storing data that is related to each other.
+
+my_first_person = {
+"first_name": "Knox",
+"last_name": "Fraiser",
+"age": 30,
+"is_happy": True,
+"enemies": [None]
+}
+
+# key:value pairs are separated by a colon, and each pair is separated by a comma. The entire dictionary is enclosed in curly braces.
+# # Example:"first_name": "Knox", # "last_name": "Fraiser", # "age": 30,    # "is_happy": True, # "enemies": [None]
+
+print(my_first_person["first_name"])     # Accessing the value associated with the key "first_name"
+print(my_first_person["last_name"], my_first_person["age"])     # Accessing the value associated with the key "last_name" and "age"
+
+
+my_second_person = {
+"first_name": "Azula",
+"last_name": "Fong",
+"age": 25,
+"is_happy": False,
+"enemies": [my_first_person]
+}
+
+print(my_second_person["first_name"])     # Accessing the value associated with the key "first_name"
+print(my_second_person["last_name"], my_second_person["age"])     # Accessing the value associated with the key "last_name" and "age"
+
+print(my_second_person["enemies"][0]["first_name"])  # Accessing the first enemy's first name of the first person in the list
+
+
+# print(my_list_var[2]["enemies"][0]["first_name"]})   # Accessing the first enemy's first name of the third person in the list (this will raise an error because my_list_var[2] is an integer, not a dictionary)
+
